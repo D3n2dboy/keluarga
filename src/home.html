@@ -8,7 +8,120 @@
     <div class="wrapper">
         @@include('html/header.html', {})
         <main class="page">
+            <section class="housing">
+                <div class="housing__container">
+                    <div class="housing__body">
+                        <div class="housing__info">
+                            <h1 class="title housing__title">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                            <div class="sub-title housing__sub-title">Menyediakan hunian bagi keluarga anda dengan
+                                varian pilihan dan<br> lokasi yang strategis di kota anda dengan cara yang
+                                lebih mudah.</div>
+                            <form action="#" method="" class="search-form housing__search-form">
+                                <div class="search-form__line">
+                                    <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                        placeholder="Search location, properties, residental group"
+                                        class="input search-form__input"><button
+                                        class="button search-form__button">Search</button>
+                                </div>
+                            </form>
 
+                            <div class="housing__plus plus">
+                                <div class="plus__items">
+                                    <div class="plus__item">
+                                        <div class="plus__number">
+                                            <div class="plus__number">
+                                                <div class="plus__counter">968</div>
+                                                <span class="orange-text">+</span>
+                                            </div>
+                                        </div>
+                                        <div class="plus__text">Residental grup telah bergabung</div>
+                                    </div>
+
+                                    <div class="plus__item">
+                                        <div class="plus__number">
+                                            <div class="plus__counter">10</div> <span
+                                                class="orange-text small-text">Tahun</span>
+                                        </div>
+                                        <div class="plus__text">Sudah berpengalaman</div>
+                                    </div>
+
+                                    <div class="plus__item">
+                                        <div class="plus__number">
+                                            <div class="plus__counter">999</div> <span class="orange-text">+</span>
+                                        </div>
+                                        <div class="plus__text">Properti tersedia di berbagai Kota</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="housing__picture">
+                            <img src="@img/header/02.jpg" alt="02">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stages">
+                <div class="stages__container">
+
+                    <h2 class="title stages__title">Tahapan Pembelian Properti<br> yang Mudah dan Cepat</h2>
+
+                    <div class="items-stages">
+                        <div class="items-stages__items">
+                            <div class="items-stages__item">
+                                <div class="items-stages__body items-stages__body_active">
+                                    <div class="items-stages__number">01</div>
+                                    <div class="items-stages__content">
+                                        <div class="items-stages__title">Pilih Properti</div>
+                                        <div class="items-stages__text">
+                                            <p>Cari properti yang diinginkan sesuai dengan kriteria
+                                                anda
+                                                dan keluarga. Cara memilih properti yang bijak dapat anda baca
+                                                lebih lanjut di sini</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="items-stages__link _icon-arow-right">Baca lebih Lanjut</a>
+                                </div>
+                            </div>
+
+                            <div class="items-stages__item">
+                                <div class="items-stages__body">
+                                    <div class="items-stages__number">02</div>
+                                    <div class="items-stages__content">
+                                        <div class="items-stages__title">Proses Booking</div>
+                                        <div class="items-stages__text">
+                                            <p>Pembayaran dalam bentuk sejumlah uang sebagai komitmen
+                                                memesan unit properti tertentu.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="items-stages__link _icon-arow-right">Baca lebih Lanjut</a>
+                                </div>
+                            </div>
+
+                            <div class="items-stages__item">
+                                <div class="items-stages__body">
+                                    <div class="items-stages__number">03</div>
+                                    <div class="items-stages__content">
+                                        <div class="items-stages__title">KPR dan Sertifikasi</div>
+                                        <div class="items-stages__text">
+                                            <p>Pembiayaan KPR untuk pembeli rumah dengan skema
+                                                pembiayaan
+                                                jika diperlukan dan dilanjutkan proses sertifkasi HGB.</p>
+                                            <p>Cari properti yang diinginkan sesuai dengan
+                                                kriteria
+                                                anda
+                                                dan keluarga. Cara memilih properti yang bijak dapat anda baca
+                                                lebih lanjut di sini</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="items-stages__link _icon-arow-right">Baca lebih Lanjut</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         @@include('html/footer.html', {})
         <script src="js/app.min.js"></script>

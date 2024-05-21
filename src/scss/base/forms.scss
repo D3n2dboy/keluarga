@@ -1,6 +1,13 @@
 // .button
 .button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
     transition: all 0.2s ease;
+    box-shadow: 0 6px 8px 0 rgba(32, 50, 57, 0.25);
+    background: #203239;
+    padding: 13px 41px;
+    border-radius: 10px;
 
     /*срабатывает при клике пили переходе на tab */
     &:focus {
