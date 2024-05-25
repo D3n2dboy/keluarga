@@ -16,3 +16,17 @@ if (menue) {
         });
     }
 }
+
+
+const searchForemPlaceholder = document.querySelector(".search-form__input");
+
+if (searchForemPlaceholder) {
+    const windowInnerWidth = window.innerWidth;
+
+    if (windowInnerWidth < 769) {
+        console.log(windowInnerWidth);
+
+        console.log(searchForemPlaceholder);
+        //searchForemPlaceholder.placeholder = 'Search form';
+    }
+}

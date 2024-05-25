@@ -139,7 +139,7 @@
             background-color: $mainOrange;
             padding: 70px 15px 15px 15px;
             font-size: 22px;
-            z-index: 2;
+            z-index: 3;
         }
 
         .menu-open & {
@@ -268,7 +268,7 @@
 
     }
 
-    //menu__button-arrow
+    // .menu__button-arrow
 
     &__button-arrow {
         transition: all 0.3s ease;

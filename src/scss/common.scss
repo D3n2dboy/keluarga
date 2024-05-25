@@ -3,15 +3,26 @@
 
 // Заголовки
 
+.title-body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .title {
     font-weight: 600;
     line-height: 1.5;
+    font-size: rem(36);
 }
 
 .sub-title {
+    font-weight: 500;
+    color: $mainOrange;
+}
+
+.text {
     font-weight: 300;
+    font-size: 16px;
     line-height: 1.87;
-    color: rgba(32, 50, 57, 0.55);
 }
 
 // Ссылки
