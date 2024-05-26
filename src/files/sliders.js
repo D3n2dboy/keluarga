@@ -14,27 +14,27 @@ function initSliders() {
         new Swiper('.swiper', { // Указываем скласс нужного слайдера
             // Подключаем модули слайдера
             // для конкретного случая
-            modules: [Navigation, Pagination],
-            observer: true,
+            modules: [Navigation],
             observeParents: true,
             //slidesPerView: 'auto',
-            spaceBetween: 50,
+            spaceBetween: 49,
             //autoHeight: true,
             speed: 800,
-            autoHeight: true,
+            freeMode: true,
+
 
             // Кнопки "влево/вправо"
             navigation: {
-                prevEl: '.buttons-trusted__prev',
-                nextEl: '.buttons-trusted__next',
+                prevEl: '.other-cities__button-left',
+                nextEl: '.other-cities__button-right',
             },
 
             //Брейкпоинты
 
             breakpoints: {
-                320: {
+                319: {
                     slidesPerView: 1.2,
-                    spaceBetween: 10,
+                    spaceBetween: 20,
 
                 },
                 600: {
