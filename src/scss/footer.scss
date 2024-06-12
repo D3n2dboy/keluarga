@@ -1,1 +1,62 @@
 // Стили footer
+
+.footer {
+    background-color: #203239;
+    color: #EEEDDE;
+    padding: 38px 0;
+
+    // .footer__container
+
+    &__container {
+        display: flex;
+        align-items: center;
+
+        @media (max-width:$mobile) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    // .footer__logo
+
+    &__logo {
+
+        @media (max-width:$mobile) {
+            flex: 1 1 auto;
+            margin-top: 25px;
+        }
+
+    }
+
+    // .footer__socials
+
+    &__socials {}
+
+    // .footer__items
+
+    &__items {
+        display: flex;
+    }
+
+    // .footer__list
+
+    &__list {
+
+        &:not(:last-child) {
+            margin-right: rem(50);
+        }
+    }
+
+    // .footer__link
+
+    &__link {
+        display: inline-block;
+        transition: transform 0.5s ease;
+        padding: 7px;
+
+        @media (any-hover: hover) {
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

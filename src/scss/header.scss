@@ -94,30 +94,29 @@
         }
     }
 
-    // .header__logo
-
-    &__logo {
-        position: relative;
-        z-index: 10;
-        flex: 1 0 80px;
-        font-size: rem(24);
-        font-weight: 600;
-
-        & span {
-            //font-weight: 600;
-            font-size: rem(36);
-            font-style: italic;
-        }
-
-    }
-
-    // .header__link
-    &__link {}
-
     // .header__menu
 
     &__menu {}
 }
+
+// .header__logo
+
+.logo {
+    position: relative;
+    z-index: 10;
+    flex: 1 0 80px;
+    font-size: rem(24);
+    font-weight: 600;
+
+    span {
+        //font-weight: 600;
+        font-size: rem(36);
+        font-style: italic;
+
+        &__link {}
+    }
+}
+
 
 .menu {
 
