@@ -69,6 +69,6 @@ if (animItems.length) {
         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
     }
 
-    setTimeout(animOmScroll, '300')
+    setTimeout(animOmScroll, '100')
     //animOmScroll();
 }
